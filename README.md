@@ -88,4 +88,4 @@ create a new fundMe contract and give to a local fake address called USER the am
 create a new test that deploy a new FundFundMe contract that is the one that we created on Interactions.sol ans then execute the function fundFundMe that fund the fundMe.
 Then i do the same bu twith the WithdrawContract and withdraw the fundMe.
 Then do and Axssert to check if the balance of the contract is zero.
-I forgoten to write that when you execute fundFundMe and withdrawFundMe you must to pass the address of the fundme That we created on setUp().
+I forgoten to write that when you execute fundFundMe and withdrawFundMe you must to pass the address of the fundme That we ```deployed``` on setUp().
